@@ -1,14 +1,6 @@
-#FlipCard Memory Game
+# card_matching
 
-<img src="/screenshots/flipcard.gif" Height="400" >
-
-<img src="/screenshots/game1.jpg" Height="300">
-<img src="/screenshots/game2.jpg" Height="300">
-
-
-
-
-
+A pokemon themed card flip matching memory game with 3 difficulty levels. It also includes background music and audio feedback from interaction.
 
 ## Getting Started
 

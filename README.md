@@ -1,6 +1,6 @@
-# Flip Card Memory Matching Game
+# card_matching
 
-A pokemon themed card matching game with 3 difficulty levels, It also includes background music and audio feedback from interaction.
+A pokemon themed card flip matching memory game with 3 difficulty levels. It also includes background music and audio feedback from interaction.
 
 ## Getting Started
 

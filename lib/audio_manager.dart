@@ -11,11 +11,11 @@ class AudioManager {
     eventCache = AudioCache(fixedPlayer: eventPlayer, prefix: 'assets/music/events/');
   }
 
-  musicPlay(String music, {bool loop = false}) {
+  musicPlay(String music, {bool loop = false, double volume = 1.0}) {
     if (loop) {
-      musicCache.loop(musics[music]);
+      musicCache.loop(musics[music], volume: volume);
     } else {
-      musicCache.play(musics[music]);
+      musicCache.play(musics[music], volume: volume);
     }
   }
 
@@ -31,8 +31,8 @@ class AudioManager {
     musicPlayer.stop();
   }
 
-  eventPlay(String event) {
-    eventCache.play(events[event]);
+  eventPlay(String event,[double volume = 1.0]) {
+    eventCache.play(events[event], );
   }
 
   dispose() {

@@ -38,7 +38,6 @@ class _FlipCardGameState extends State<FlipCardGame> {
     _confettiController = ConfettiController(duration: Duration(seconds: 15));
     _gameAudioManager.init();
     restart();
-    _gameAudioManager.musicPlayer.setVolume(0.25);
   }
 
   @override
@@ -202,7 +201,7 @@ class _FlipCardGameState extends State<FlipCardGame> {
                                             _gameAudioManager.musicPlayer.stop();
                                             _gameAudioManager.eventPlay('Win');
                                             _gameAudioManager.eventPlayer.onPlayerCompletion.listen((event) {
-                                              if (_isFinished) _gameAudioManager.musicPlay('Fin', loop: true);
+                                              if (_isFinished) _gameAudioManager.musicPlay('Fin', loop: true,volume: 0.5);
                                             });
                                             _confettiController.play();
                                           });
@@ -259,7 +258,7 @@ class _FlipCardGameState extends State<FlipCardGame> {
   }
 
   void restart() {
-    _gameAudioManager.musicPlay('Start', loop: true);
+    _gameAudioManager.musicPlay('Start', loop: true, volume: 0.5);
     _gameAudioManager.eventPlayer.stop();
     _confettiController.stop();
     _time = 5;

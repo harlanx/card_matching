@@ -37,9 +37,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         }));
     });
     _homeAudioManager.init();
-    _homeAudioManager.musicPlay('Startup', volume: 0.5);
+    _homeAudioManager.musicPlay('Startup', volume: 0.3);
     _homeAudioManager.musicPlayer.onPlayerCompletion.listen((event) {
-      _homeAudioManager.musicPlay('Filler', volume: 0.5);
+      _homeAudioManager.musicPlay('Filler', volume: 0.3);
     });
   }
 

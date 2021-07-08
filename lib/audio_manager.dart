@@ -31,7 +31,7 @@ class AudioManager {
     musicPlayer.stop();
   }
 
-  eventPlay(String event,[double volume = 1.0]) {
+  eventPlay(String event,{double volume = 1.0}) {
     eventCache.play(events[event], );
   }
 

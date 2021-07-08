@@ -1,16 +1,21 @@
 # card_matching
 
-A pokemon themed card flip matching memory game with 3 difficulty levels. It also includes background music and audio feedback from interaction.
+A pokemon themed card flip matching memory game created using Dart language with Flutter SDK.
 
-## Getting Started
+Disclaimer: This is not an official pokemon app nor related to any offical pokemon products.
 
-This project is a starting point for a Flutter application.
+All assets was used for educational purposes only.
 
-A few resources to get you started if this is your first Flutter project:
+## Preview
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://user-images.githubusercontent.com/78299538/124940902-f3549b80-e03c-11eb-9a14-b66eb0a10a66.mp4
+
+## Contents
+- 3 Difficulty Levels
+  - Easy - 6 Cards
+  - Normal - 12 Cards
+  - Hard - 16 Cards
+- Background Music
+- Event/Interaction Sound
+- Winning Screen

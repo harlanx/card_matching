@@ -1,6 +1,6 @@
 # card_matching
 
-A pokemon themed card flip matching memory game created using Dart language with Flutter SDK.
+A Pokemon themed card flip matching memory game created using Dart language with Flutter SDK.
 
 Disclaimer: This is not an official pokemon app nor related to any offical pokemon products.
 
